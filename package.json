@@ -1,0 +1,44 @@
+{
+  "name": "ynw-utils",
+  "version": "0.0.1",
+  "description": "utils for ynw",
+  "main": "dist/utils.js",
+  "module": "dist/utils.esm.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.dev.js -w",
+    "pro": "rollup -c rollup.config.pro.js",
+    "doc": "node scripts/doc.js"
+  },
+  "keywords": [
+    "ynw"
+  ],
+  "author": "liqiang0335",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqiang0335/utils.git"
+  },
+  "homepage": "https://github.com/liqiang0335/utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
+    "fs-extra": "^7.0.0",
+    "jsdoc-to-markdown": "^4.0.1",
+    "regenerator-runtime": "^0.12.1",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "uglify-es": "^3.3.9"
+  },
+  "peerDependencies": {}
+}
