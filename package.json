@@ -16,9 +16,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liqiang0335/utils.git"
+    "url": "git+https://github.com/liqiang0335/ynw-utils.git"
   },
-  "homepage": "https://github.com/liqiang0335/utils#readme",
+  "homepage": "https://github.com/liqiang0335/ynw-utils#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-external-helpers": "^7.0.0",
