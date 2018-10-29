@@ -1,6 +1,6 @@
 {
   "name": "ynw-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utils for ynw",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",
@@ -40,5 +40,7 @@
     "rollup-plugin-uglify": "^6.0.0",
     "uglify-es": "^3.3.9"
   },
-  "peerDependencies": {}
+  "dependencies": {
+    "regenerator-runtime": "^0.12.1"
+  }
 }
