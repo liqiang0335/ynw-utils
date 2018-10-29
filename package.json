@@ -39,8 +39,5 @@
     "rollup-plugin-replace": "^2.1.0",
     "rollup-plugin-uglify": "^6.0.0",
     "uglify-es": "^3.3.9"
-  },
-  "dependencies": {
-    "regenerator-runtime": "^0.12.1"
   }
 }
