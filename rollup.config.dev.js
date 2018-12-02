@@ -13,7 +13,7 @@ export default {
     format: "es"
   },
 
-  external: ["lodash"],
+  external: ["lodash", "date-fns", "element-ui", "vue"],
   plugins: [
     alias({
       resolve: [".js"]
