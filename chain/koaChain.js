@@ -1,26 +1,22 @@
-/**
- * 将函数组成 Promise链调用
- */
-export const promiseChain = (...fns) => arg =>
-  fns.reduce((p, next) => p.then(next), Promise.resolve(arg));
+"use strict";
 
 /**
- * 依次执行队列中的同步或异步函数
+ * Expose compositor.
  */
-export const nextChain = (...args) => fns => {
-  let cur = 0;
-  const lastIndex = fns.length - 1;
-  const next = () => {
-    const _next = cur == lastIndex ? f => f : next;
-    fns[cur++].apply(null, [...args, _next]);
-  };
-  next();
-};
+
+export default compose;
 
 /**
- * KOA chain
+ * Compose `middleware` returning
+ * a fully valid middleware comprised
+ * of all those which are passed.
+ *
+ * @param {Array} middleware
+ * @return {Function}
+ * @api public
  */
-export const koaChain = function(middleware) {
+
+function compose(middleware) {
   if (!Array.isArray(middleware))
     throw new TypeError("Middleware stack must be an array!");
   for (const fn of middleware) {
@@ -56,6 +52,4 @@ export const koaChain = function(middleware) {
       }
     }
   };
-};
-
-export default { promise, next, koa };
+}
