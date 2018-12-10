@@ -1,4 +1,4 @@
-export function tree2Array(nodes) {
+export default function tree2Array(nodes) {
   const children = "children";
   var result = [];
 
