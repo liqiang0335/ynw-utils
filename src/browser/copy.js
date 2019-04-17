@@ -1,3 +1,7 @@
+/**
+ * 复制文本
+ * @param {String} str
+ */
 const copyText = str => {
   const el = document.createElement("textarea");
   el.value = str;
