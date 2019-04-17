@@ -14,8 +14,8 @@ export { default as nextChain } from "./src/chain/nextChain";
 export { default as promiseChain } from "./src/chain/promiseChain";
 
 //BOM
-export { default as copyText } from "./src/copy";
+export { default as copyText } from "./src/browser/copy";
 
 //utils
-export { default as array2Tree } from "./src/utils/array2Tree";
-export { default as tree2Array } from "./src/utils/tree2Array";
+export { default as array2Tree } from "./src/function/array2Tree";
+export { default as tree2Array } from "./src/function/tree2Array";

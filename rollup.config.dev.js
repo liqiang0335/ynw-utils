@@ -12,7 +12,6 @@ export default {
     file: "dist/utils.dev.js",
     format: "es"
   },
-
   external: ["lodash", "date-fns", "element-ui", "vue"],
   plugins: [
     alias({
