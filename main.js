@@ -21,3 +21,7 @@ export { default as tree2Array } from "./src/function/tree2Array";
 export { default as copy } from "./src/browser/copy";
 export { default as getUrlHash } from "./src/browser/getUrlHash";
 export { default as getUrlParam } from "./src/browser/getUrlParam";
+
+// time
+export { default as overTime } from "./src/time/overTime";
+export { default as distanceToNow } from "./src/time/distanceToNow";

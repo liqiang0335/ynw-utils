@@ -14,7 +14,7 @@ overTime(target);
 ## Usage
 
 ```js
-import overTime from "../../function/time/overTime";
+import { overTime } from "ynw-utils";
 
 const param1 = "2019/11/12 13:14:15"; // 参数为日期字符串
 const param2 = new Date("2019/11/12 13:14:15").getTime(); // 参数时间戳
