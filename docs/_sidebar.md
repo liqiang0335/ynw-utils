@@ -1,7 +1,7 @@
 - [首页](/)
 - **Browser**
   - [copy](browser/copy.md)
-  - [url](browser/copy.md)
+  - [url](browser/url.md)
 
 - **time**
   - [overTime](time/overTime.md)
