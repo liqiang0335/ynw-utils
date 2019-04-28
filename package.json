@@ -1,6 +1,6 @@
 {
   "name": "ynw-utils",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "utils for ynw",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",
@@ -17,5 +17,26 @@
     "type": "git",
     "url": "git+https://github.com/liqiang0335/ynw-utils.git"
   },
-  "homepage": "https://github.com/liqiang0335/ynw-utils#readme"
+  "homepage": "https://github.com/liqiang0335/ynw-utils#readme",
+  "dependencies": {
+    "regenerator-runtime": "^0.12.1",
+    "@babel/runtime": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-transform-regenerator": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "uglify-es": "^3.3.9"
+  }
 }

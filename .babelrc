@@ -4,7 +4,9 @@
       "modules": false,
       "targets": {
         "browsers": ["ie >= 9"]
-      }
+      },
+      "useBuiltIns": "usage",
+      "corejs": "3"
     }]
   ],
   "plugins": [
