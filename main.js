@@ -17,8 +17,6 @@ export { default as array2Tree } from "./src/function/array2Tree";
 export { default as tree2Array } from "./src/function/tree2Array";
 
 // Browser
-export { default as overTime } from "./src/time/overTime";
-export { default as createSocket } from "./src/browser/createSocket";
 export { default as createEventHub } from "./src/browser/createEventHub";
 export { default as copyToClipboard } from "./src/browser/copyToClipboard";
 export { default as detectDeviceType } from "./src/browser/detectDeviceType";
