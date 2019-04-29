@@ -12,7 +12,7 @@ export default {
     file: "dist/utils.dev.js",
     format: "es"
   },
-  external: ["lodash", "date-fns", "element-ui", "vue"],
+  external: ["lodash", "date-fns", "reconnecting-websocket"],
   plugins: [
     alias({
       resolve: [".js"]

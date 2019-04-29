@@ -2,7 +2,7 @@
  * 复制文本
  * @param {String} str
  */
-const copyText = str => {
+const copyToClipboard = str => {
   const el = document.createElement("textarea");
   el.value = str;
   el.setAttribute("readonly", "");
@@ -22,4 +22,4 @@ const copyText = str => {
   }
 };
 
-export default copyText;
+export default copyToClipboard;
