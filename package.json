@@ -1,6 +1,6 @@
 {
   "name": "ynw-utils",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "utils for ynw",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",
